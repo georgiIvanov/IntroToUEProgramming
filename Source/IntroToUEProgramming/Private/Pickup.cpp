@@ -7,6 +7,7 @@
 APickup::APickup(const FObjectInitializer& ObjectInitializer)
 : Super(ObjectInitializer)
 {
+    // the pickup is active when it's created
     bIsActive = true;
     
     // create SphereComponent to handle pickup's collision
@@ -27,5 +28,5 @@ APickup::APickup(const FObjectInitializer& ObjectInitializer)
 
 void APickup::OnPickedUp_Implementation()
 {
-    // no default implementation
+    // no default behavior
 }
