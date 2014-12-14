@@ -2,6 +2,7 @@
 
 #include "IntroToUEProgramming.h"
 #include "IntroToUEProgrammingCharacter.h"
+#include "BatteryPickup.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AIntroToUEProgrammingCharacter
@@ -9,6 +10,15 @@
 AIntroToUEProgrammingCharacter::AIntroToUEProgrammingCharacter(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {
+    PowerLevel = 2000.f;
+    SpeedFactor = 0.75f;
+    BaseSpeed = 10.0f;
+    
+    //Create our battery collection volume
+    CollectionSphere = ObjectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("CollectionSphere"));
+    CollectionSphere->AttachTo(RootComponent);
+    CollectionSphere->SetSphereRadius(200.f);
+    
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -51,6 +61,7 @@ void AIntroToUEProgrammingCharacter::SetupPlayerInputComponent(class UInputCompo
 	check(InputComponent);
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	InputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+    InputComponent->BindAction("CollectPickups", IE_Pressed, this, &AIntroToUEProgrammingCharacter::CollectBatteries);
 
 	InputComponent->BindAxis("MoveForward", this, &AIntroToUEProgrammingCharacter::MoveForward);
 	InputComponent->BindAxis("MoveRight", this, &AIntroToUEProgrammingCharacter::MoveRight);
@@ -125,4 +136,43 @@ void AIntroToUEProgrammingCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void AIntroToUEProgrammingCharacter::CollectBatteries()
+{
+    float BatteryPower = 0.f;
+    
+    // Get all overlapping Actors and store them in a CollectedActors array
+    TArray<AActor*> CollectedActors;
+    CollectionSphere->GetOverlappingActors(CollectedActors);
+    
+    // for each actor collected
+    for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected)
+    {
+        // Cast the collected Actor to ABatteryPickup
+        ABatteryPickup* const TestBattery = Cast<ABatteryPickup>(CollectedActors[iCollected]);
+        
+        // if successful and battery is active
+        if(TestBattery &&
+           !TestBattery->IsPendingKill() &&
+           TestBattery->bIsActive)
+        {
+            BatteryPower = BatteryPower + TestBattery->PowerLevel;
+            TestBattery->OnPickedUp();
+            TestBattery->bIsActive = false;
+        }
+    }
+    
+    if(BatteryPower > 0)
+    {
+        // Call the Blueprint implementation of PowerUp with
+        // the total battery power as input
+        PowerUp(BatteryPower);
+    }
+}
+
+void AIntroToUEProgrammingCharacter::Tick(float DeltaSeconds)
+{
+    Super::Tick(DeltaSeconds);
+    GetCharacterMovement()->MaxWalkSpeed = SpeedFactor * PowerLevel + BaseSpeed;
 }
