@@ -22,11 +22,11 @@ public:
     
     // Simple collision primitive to use as root component
     UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Pickup)
-    USphereComponent* BaseCollisionComponent;
+    class USphereComponent* BaseCollisionComponent;
     
     // Represents the pickup in the level
     UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Pickup)
-    UStaticMeshComponent* PickupMesh;
+    class UStaticMeshComponent* PickupMesh;
     
     // Function to call when the pickup is collected
     UFUNCTION(BlueprintNativeEvent)
