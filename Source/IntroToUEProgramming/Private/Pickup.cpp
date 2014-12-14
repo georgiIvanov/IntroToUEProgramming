@@ -25,3 +25,7 @@ APickup::APickup(const FObjectInitializer& ObjectInitializer)
     PickupMesh->AttachTo(RootComponent);
 }
 
+void APickup::OnPickedUp_Implementation()
+{
+    // no default implementation
+}
