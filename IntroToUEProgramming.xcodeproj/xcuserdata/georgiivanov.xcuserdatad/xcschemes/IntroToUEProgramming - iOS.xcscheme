@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B03F597AB2B51615D8B0AFF4"
+               BlueprintIdentifier = "6B676F2A98C0EE04EF057E70"
                BuildableName = "IntroToUEProgramming.app"
                BlueprintName = "IntroToUEProgramming - iOS"
                ReferencedContainer = "container:IntroToUEProgramming.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD2B4BAAD044778F03B18500"
+               BlueprintIdentifier = "A5628470F317DFBC0AC94CF2"
                BuildableName = "UE4CmdLineRun.xctest"
                BlueprintName = "UE4CmdLineRun"
                ReferencedContainer = "container:IntroToUEProgramming.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B03F597AB2B51615D8B0AFF4"
+            BlueprintIdentifier = "6B676F2A98C0EE04EF057E70"
             BuildableName = "IntroToUEProgramming.app"
             BlueprintName = "IntroToUEProgramming - iOS"
             ReferencedContainer = "container:IntroToUEProgramming.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B03F597AB2B51615D8B0AFF4"
+            BlueprintIdentifier = "6B676F2A98C0EE04EF057E70"
             BuildableName = "IntroToUEProgramming.app"
             BlueprintName = "IntroToUEProgramming - iOS"
             ReferencedContainer = "container:IntroToUEProgramming.xcodeproj">
@@ -89,7 +89,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B03F597AB2B51615D8B0AFF4"
+            BlueprintIdentifier = "6B676F2A98C0EE04EF057E70"
             BuildableName = "IntroToUEProgramming.app"
             BlueprintName = "IntroToUEProgramming"
             ReferencedContainer = "container:UE4.xcodeproj">

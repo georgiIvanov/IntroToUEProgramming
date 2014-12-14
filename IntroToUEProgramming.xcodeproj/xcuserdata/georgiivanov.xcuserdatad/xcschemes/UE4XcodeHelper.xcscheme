@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8CA5EF6672C374DB7D05FB2D"
+               BlueprintIdentifier = "F065836E73C8A2F3415E76E1"
                BuildableName = "libUE4XcodeHelper.a"
                BlueprintName = "UE4XcodeHelper"
                ReferencedContainer = "container:IntroToUEProgramming.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD2B4BAAD044778F03B18500"
+               BlueprintIdentifier = "A5628470F317DFBC0AC94CF2"
                BuildableName = "UE4CmdLineRun.xctest"
                BlueprintName = "UE4CmdLineRun"
                ReferencedContainer = "container:IntroToUEProgramming.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CA5EF6672C374DB7D05FB2D"
+            BlueprintIdentifier = "F065836E73C8A2F3415E76E1"
             BuildableName = "libUE4XcodeHelper.a"
             BlueprintName = "UE4XcodeHelper"
             ReferencedContainer = "container:IntroToUEProgramming.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CA5EF6672C374DB7D05FB2D"
+            BlueprintIdentifier = "F065836E73C8A2F3415E76E1"
             BuildableName = "libUE4XcodeHelper.a"
             BlueprintName = "UE4XcodeHelper"
             ReferencedContainer = "container:IntroToUEProgramming.xcodeproj">
@@ -82,7 +82,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8CA5EF6672C374DB7D05FB2D"
+            BlueprintIdentifier = "F065836E73C8A2F3415E76E1"
             BuildableName = "UE4XcodeHelper"
             BlueprintName = "UE4XcodeHelper"
             ReferencedContainer = "container:UE4.xcodeproj">

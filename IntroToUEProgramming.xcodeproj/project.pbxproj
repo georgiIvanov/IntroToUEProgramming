@@ -7,60 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A390DB9969161E8BE4F0CF4 /* IntroToUEProgramming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F423ED8C0523730E2E120DB /* IntroToUEProgramming.cpp */; };
-		7298C535FFB31C2F2A0DF4D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85596FB6CE91F8C3DCE657E0 /* XCTest.framework */; };
-		9DB3C79F76F994FE0A529084 /* IntroToUEProgrammingGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2550F952F75F829C8282D79A /* IntroToUEProgrammingGameMode.cpp */; };
-		B48368436A2746BB0D9E6995 /* Pickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97872DDC3C98FCF8D6C94BD /* Pickup.cpp */; };
-		BA17F0F9190FC96B2FBA2912 /* IntroToUEProgrammingCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B10EF6C58AD72A2BFBC0026 /* IntroToUEProgrammingCharacter.cpp */; };
+		6395010B83F189E14504CF28 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6028181650C886C91A9FBED0 /* XCTest.framework */; };
+		6A390DB9969161E8BE4F0CF4 /* BatteryPickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F423ED8C0523730E2E120DB /* BatteryPickup.cpp */; };
+		9DB3C79F76F994FE0A529084 /* IntroToUEProgrammingCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2550F952F75F829C8282D79A /* IntroToUEProgrammingCharacter.cpp */; };
+		B48368436A2746BB0D9E6995 /* IntroToUEProgrammingGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97872DDC3C98FCF8D6C94BD /* IntroToUEProgrammingGameMode.cpp */; };
+		BA17F0F9190FC96B2FBA2912 /* IntroToUEProgramming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B10EF6C58AD72A2BFBC0026 /* IntroToUEProgramming.cpp */; };
+		F8EE3A7C52D9DFE2A62935E1 /* Pickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C8B2C8EC6F456C28CBD39 /* Pickup.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C12804AC350EC6F717FBAA24 /* PBXContainerItemProxy */ = {
+		8EDC84F240C130AC4F53FC41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3FA8A87A97F953207905EFD6 /* Project object */;
+			containerPortal = 27AFC5D77CBF58FB29C42D1E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9DA2287E06D554F82C141CF;
+			remoteGlobalIDString = 6857F8EAE30E1EA7348C407F;
 			remoteInfo = "IntroToUEProgramming - Mac";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F1C8B2C8EC6F456C28CBD39 /* IntroToUEProgramming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroToUEProgramming.h; path = Source/IntroToUEProgramming/Public/IntroToUEProgramming.h; sourceTree = SOURCE_ROOT; };
+		0F1C8B2C8EC6F456C28CBD39 /* Pickup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Pickup.cpp; path = Source/IntroToUEProgramming/Private/Pickup.cpp; sourceTree = SOURCE_ROOT; };
 		15A34CDBDF6AF17442A5BC38 /* IntroToUEProgramming.uproject */ = {isa = PBXFileReference; lastKnownFileType = file.text; path = IntroToUEProgramming.uproject; sourceTree = SOURCE_ROOT; };
-		172A2FE00FA3A092B5E62089 /* IntroToUEProgrammingCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroToUEProgrammingCharacter.h; path = Source/IntroToUEProgramming/Public/IntroToUEProgrammingCharacter.h; sourceTree = SOURCE_ROOT; };
-		2550F952F75F829C8282D79A /* IntroToUEProgrammingGameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IntroToUEProgrammingGameMode.cpp; path = Source/IntroToUEProgramming/Private/IntroToUEProgrammingGameMode.cpp; sourceTree = SOURCE_ROOT; };
-		3B062016257A479AC48AD30A /* Pickup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Pickup.h; path = Source/IntroToUEProgramming/Public/Pickup.h; sourceTree = SOURCE_ROOT; };
-		3F423ED8C0523730E2E120DB /* IntroToUEProgramming.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IntroToUEProgramming.cpp; path = Source/IntroToUEProgramming/Private/IntroToUEProgramming.cpp; sourceTree = SOURCE_ROOT; };
-		6029578830DA638243DE8E0B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		6B10EF6C58AD72A2BFBC0026 /* IntroToUEProgrammingCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IntroToUEProgrammingCharacter.cpp; path = Source/IntroToUEProgramming/Private/IntroToUEProgrammingCharacter.cpp; sourceTree = SOURCE_ROOT; };
-		85596FB6CE91F8C3DCE657E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		96CE19817589E2ADB05AEA5C /* libUE4XcodeHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUE4XcodeHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		172A2FE00FA3A092B5E62089 /* BatteryPickup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BatteryPickup.h; path = Source/IntroToUEProgramming/Public/BatteryPickup.h; sourceTree = SOURCE_ROOT; };
+		2550F952F75F829C8282D79A /* IntroToUEProgrammingCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IntroToUEProgrammingCharacter.cpp; path = Source/IntroToUEProgramming/Private/IntroToUEProgrammingCharacter.cpp; sourceTree = SOURCE_ROOT; };
+		29A0CBF10248C211A6964760 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3B062016257A479AC48AD30A /* IntroToUEProgrammingCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroToUEProgrammingCharacter.h; path = Source/IntroToUEProgramming/Public/IntroToUEProgrammingCharacter.h; sourceTree = SOURCE_ROOT; };
+		3F423ED8C0523730E2E120DB /* BatteryPickup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = BatteryPickup.cpp; path = Source/IntroToUEProgramming/Private/BatteryPickup.cpp; sourceTree = SOURCE_ROOT; };
+		52225273DFF1A3D468C1577A /* IntroToUEProgramming/Binaries/IOS/Payload/IntroToUEProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = IntroToUEProgramming/Binaries/IOS/Payload/IntroToUEProgramming.app; path = IntroToUEProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFC04FBD5F38228F027F30F /* IntroToUEProgrammingGameMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroToUEProgrammingGameMode.h; path = Source/IntroToUEProgramming/Public/IntroToUEProgrammingGameMode.h; sourceTree = SOURCE_ROOT; };
+		6028181650C886C91A9FBED0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B10EF6C58AD72A2BFBC0026 /* IntroToUEProgramming.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IntroToUEProgramming.cpp; path = Source/IntroToUEProgramming/Private/IntroToUEProgramming.cpp; sourceTree = SOURCE_ROOT; };
+		9F2433E3DDF5735319F1FD5F /* libUE4XcodeHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUE4XcodeHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64C3FA889BE2718F09D3BB4 /* IntroToUEProgramming.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = IntroToUEProgramming.Target.cs; path = Source/IntroToUEProgramming.Target.cs; sourceTree = SOURCE_ROOT; };
-		B6E3B10D4331CA89EC7F74CF /* IntroToUEProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroToUEProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2B4B2C61992407D66A50C05 /* IntroToUEProgrammingGameMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroToUEProgrammingGameMode.h; path = Source/IntroToUEProgramming/Public/IntroToUEProgrammingGameMode.h; sourceTree = SOURCE_ROOT; };
+		C2B4B2C61992407D66A50C05 /* IntroToUEProgramming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroToUEProgramming.h; path = Source/IntroToUEProgramming/Public/IntroToUEProgramming.h; sourceTree = SOURCE_ROOT; };
+		CB393D8791A3E41315F82216 /* Pickup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Pickup.h; path = Source/IntroToUEProgramming/Public/Pickup.h; sourceTree = SOURCE_ROOT; };
+		D1C6A0CFDB0094D8E35C577D /* Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest; path = UE4CmdLineRun.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A29D200257CBB89990085E /* IntroToUEProgramming.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = IntroToUEProgramming.Build.cs; path = Source/IntroToUEProgramming/IntroToUEProgramming.Build.cs; sourceTree = SOURCE_ROOT; };
 		E87B71283A2450FDB3AFA02A /* IntroToUEProgrammingEditor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = IntroToUEProgrammingEditor.Target.cs; path = Source/IntroToUEProgrammingEditor.Target.cs; sourceTree = SOURCE_ROOT; };
-		E97872DDC3C98FCF8D6C94BD /* Pickup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Pickup.cpp; path = Source/IntroToUEProgramming/Private/Pickup.cpp; sourceTree = SOURCE_ROOT; };
-		FEEA0ACBF22F717F5CD7FC7F /* UE4CmdLineRun.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UE4CmdLineRun.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97872DDC3C98FCF8D6C94BD /* IntroToUEProgrammingGameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IntroToUEProgrammingGameMode.cpp; path = Source/IntroToUEProgramming/Private/IntroToUEProgrammingGameMode.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B676F2A98C0EE04EF057E70 /* Frameworks */ = {
+		5A273BE58904752506AD7474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6395010B83F189E14504CF28 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F7EB5710545DE17AF0B5C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5628470F317DFBC0AC94CF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7298C535FFB31C2F2A0DF4D3 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F065836E73C8A2F3415E76E1 /* Frameworks */ = {
+		E21DA3825FF65243B4288416 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,101 +73,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21D9D0723294109053C165D6 /* Source */ = {
+		49E3819C9451B63FB240A287 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				C6B2FF7FBB0C6ED89AB58424 /* IntroToUEProgramming */,
-				B64C3FA889BE2718F09D3BB4 /* IntroToUEProgramming.Target.cs */,
-				E87B71283A2450FDB3AFA02A /* IntroToUEProgrammingEditor.Target.cs */,
+				172A2FE00FA3A092B5E62089 /* BatteryPickup.h */,
+				C2B4B2C61992407D66A50C05 /* IntroToUEProgramming.h */,
+				3B062016257A479AC48AD30A /* IntroToUEProgrammingCharacter.h */,
+				5AFC04FBD5F38228F027F30F /* IntroToUEProgrammingGameMode.h */,
+				CB393D8791A3E41315F82216 /* Pickup.h */,
 			);
-			path = Source;
+			name = Public;
+			path = Source/IntroToUEProgramming/Public;
 			sourceTree = "<group>";
 		};
-		59952E5C4D77A32301346879 /* Frameworks */ = {
+		59952E5C4D77A32301346879 /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				6029578830DA638243DE8E0B /* OpenGLES.framework */,
-				85596FB6CE91F8C3DCE657E0 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6395010B83F189E14504CF28 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				3F423ED8C0523730E2E120DB /* IntroToUEProgramming.cpp */,
-				6B10EF6C58AD72A2BFBC0026 /* IntroToUEProgrammingCharacter.cpp */,
-				2550F952F75F829C8282D79A /* IntroToUEProgrammingGameMode.cpp */,
-				E97872DDC3C98FCF8D6C94BD /* Pickup.cpp */,
+				3F423ED8C0523730E2E120DB /* BatteryPickup.cpp */,
+				6B10EF6C58AD72A2BFBC0026 /* IntroToUEProgramming.cpp */,
+				2550F952F75F829C8282D79A /* IntroToUEProgrammingCharacter.cpp */,
+				E97872DDC3C98FCF8D6C94BD /* IntroToUEProgrammingGameMode.cpp */,
+				0F1C8B2C8EC6F456C28CBD39 /* Pickup.cpp */,
 			);
 			name = Private;
 			path = Source/IntroToUEProgramming/Private;
 			sourceTree = "<group>";
 		};
-		A7A660A86F7E71ADB7EF07CA /* Products */ = {
+		8ECEEA9EC2004E8ED775D5ED = {
 			isa = PBXGroup;
 			children = (
-				96CE19817589E2ADB05AEA5C /* libUE4XcodeHelper.a */,
-				FEEA0ACBF22F717F5CD7FC7F /* UE4CmdLineRun.xctest */,
-				B6E3B10D4331CA89EC7F74CF /* IntroToUEProgramming.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B2D9AA3E670D813F94CCA209 = {
-			isa = PBXGroup;
-			children = (
-				21D9D0723294109053C165D6 /* Source */,
-				A7A660A86F7E71ADB7EF07CA /* Products */,
-				59952E5C4D77A32301346879 /* Frameworks */,
+				B2D9AA3E670D813F94CCA209 /* Source */,
+				C39DBEF837505267F32005E7 /* Products */,
+				EFA2C2182C067BCABEB8875F /* Frameworks */,
 				15A34CDBDF6AF17442A5BC38 /* IntroToUEProgramming.uproject */,
 			);
 			sourceTree = "<group>";
 		};
-		C6B2FF7FBB0C6ED89AB58424 /* IntroToUEProgramming */ = {
+		A7A660A86F7E71ADB7EF07CA /* IntroToUEProgramming */ = {
 			isa = PBXGroup;
 			children = (
-				6395010B83F189E14504CF28 /* Private */,
-				ED6930AA51E76419FB1077F1 /* Public */,
+				59952E5C4D77A32301346879 /* Private */,
+				49E3819C9451B63FB240A287 /* Public */,
 				D2A29D200257CBB89990085E /* IntroToUEProgramming.Build.cs */,
 			);
 			name = IntroToUEProgramming;
 			path = Source/IntroToUEProgramming;
 			sourceTree = "<group>";
 		};
-		ED6930AA51E76419FB1077F1 /* Public */ = {
+		B2D9AA3E670D813F94CCA209 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0F1C8B2C8EC6F456C28CBD39 /* IntroToUEProgramming.h */,
-				172A2FE00FA3A092B5E62089 /* IntroToUEProgrammingCharacter.h */,
-				C2B4B2C61992407D66A50C05 /* IntroToUEProgrammingGameMode.h */,
-				3B062016257A479AC48AD30A /* Pickup.h */,
+				A7A660A86F7E71ADB7EF07CA /* IntroToUEProgramming */,
+				B64C3FA889BE2718F09D3BB4 /* IntroToUEProgramming.Target.cs */,
+				E87B71283A2450FDB3AFA02A /* IntroToUEProgrammingEditor.Target.cs */,
 			);
-			name = Public;
-			path = Source/IntroToUEProgramming/Public;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C39DBEF837505267F32005E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2433E3DDF5735319F1FD5F /* libUE4XcodeHelper.a */,
+				D1C6A0CFDB0094D8E35C577D /* Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest */,
+				52225273DFF1A3D468C1577A /* IntroToUEProgramming/Binaries/IOS/Payload/IntroToUEProgramming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA2C2182C067BCABEB8875F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A0CBF10248C211A6964760 /* OpenGLES.framework */,
+				6028181650C886C91A9FBED0 /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		A4D012BA00E942CE3E13ED28 /* IntroToUEProgrammingEditor - Mac */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) IntroToUEProgrammingEditor $(PLATFORM_NAME) $(CONFIGURATION) \"$(PROJECT_DIR)/IntroToUEProgramming.uproject\"";
-			buildConfigurationList = 2543E95ABE6FE1549428744A /* Build configuration list for PBXLegacyTarget "IntroToUEProgrammingEditor - Mac" */;
-			buildPhases = (
-			);
-			buildToolPath = /Users/Shared/UnrealEngine/4.6/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
-			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.6;
-			dependencies = (
-			);
-			name = "IntroToUEProgrammingEditor - Mac";
-			passBuildSettingsInEnvironment = 0;
-			productName = "IntroToUEProgrammingEditor - Mac";
-		};
-		B9DA2287E06D554F82C141CF /* IntroToUEProgramming - Mac */ = {
+		6857F8EAE30E1EA7348C407F /* IntroToUEProgramming - Mac */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) IntroToUEProgramming $(PLATFORM_NAME) $(CONFIGURATION) \"$(PROJECT_DIR)/IntroToUEProgramming.uproject\"";
-			buildConfigurationList = 7A3B692D8EC585BB3FD0F8FD /* Build configuration list for PBXLegacyTarget "IntroToUEProgramming - Mac" */;
+			buildConfigurationList = 0C2D366B707949B120CA6EBD /* Build configuration list for PBXLegacyTarget "IntroToUEProgramming - Mac" */;
 			buildPhases = (
 			);
 			buildToolPath = /Users/Shared/UnrealEngine/4.6/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
@@ -175,51 +166,48 @@
 			passBuildSettingsInEnvironment = 0;
 			productName = "IntroToUEProgramming - Mac";
 		};
+		C9593CE068915DC38157E739 /* IntroToUEProgrammingEditor - Mac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) IntroToUEProgrammingEditor $(PLATFORM_NAME) $(CONFIGURATION) \"$(PROJECT_DIR)/IntroToUEProgramming.uproject\"";
+			buildConfigurationList = 43FF059A291EA3F7D26D7626 /* Build configuration list for PBXLegacyTarget "IntroToUEProgrammingEditor - Mac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Users/Shared/UnrealEngine/4.6/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
+			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.6;
+			dependencies = (
+			);
+			name = "IntroToUEProgrammingEditor - Mac";
+			passBuildSettingsInEnvironment = 0;
+			productName = "IntroToUEProgrammingEditor - Mac";
+		};
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		8CA5EF6672C374DB7D05FB2D /* UE4XcodeHelper */ = {
+		6B676F2A98C0EE04EF057E70 /* IntroToUEProgramming - iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 946A116CFB87339CF0E95285 /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */;
+			buildConfigurationList = 827F628BDE26193DCAF04501 /* Build configuration list for PBXNativeTarget "IntroToUEProgramming - iOS" */;
 			buildPhases = (
-				A0F2B9613D802C986390EF91 /* Sources */,
-				F065836E73C8A2F3415E76E1 /* Frameworks */,
-				6C80F057548241D7663CECC5 /* ShellScript */,
+				B6E3B10D4331CA89EC7F74CF /* Sources */,
+				D3F7EB5710545DE17AF0B5C9 /* Frameworks */,
+				813DBB2C8FA8488CB2A0850E /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = UE4XcodeHelper;
-			productName = UE4XcodeHelper;
-			productReference = 96CE19817589E2ADB05AEA5C /* libUE4XcodeHelper.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B03F597AB2B51615D8B0AFF4 /* IntroToUEProgramming - iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA2F44CA29214A2137DCF1B8 /* Build configuration list for PBXNativeTarget "IntroToUEProgramming - iOS" */;
-			buildPhases = (
-				8EDC84F240C130AC4F53FC41 /* Sources */,
-				6B676F2A98C0EE04EF057E70 /* Frameworks */,
-				827F628BDE26193DCAF04501 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BE9C3077E1F943F41CD9821F /* PBXTargetDependency */,
+				3397B24CD189DA9D64548528 /* PBXTargetDependency */,
 			);
 			name = "IntroToUEProgramming - iOS";
 			productName = "IntroToUEProgramming - iOS";
-			productReference = B6E3B10D4331CA89EC7F74CF /* IntroToUEProgramming.app */;
+			productReference = 52225273DFF1A3D468C1577A /* IntroToUEProgramming/Binaries/IOS/Payload/IntroToUEProgramming.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD2B4BAAD044778F03B18500 /* UE4CmdLineRun */ = {
+		A5628470F317DFBC0AC94CF2 /* UE4CmdLineRun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2165E139F0A34D8E3CE54651 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */;
+			buildConfigurationList = 71691D23B02BEEDBB5650509 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */;
 			buildPhases = (
-				3B66A14872D7F21020815DDD /* Sources */,
-				A5628470F317DFBC0AC94CF2 /* Frameworks */,
-				71691D23B02BEEDBB5650509 /* ShellScript */,
+				FEEA0ACBF22F717F5CD7FC7F /* Sources */,
+				5A273BE58904752506AD7474 /* Frameworks */,
+				B055C80CF81A0379101047B9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -227,59 +215,58 @@
 			);
 			name = UE4CmdLineRun;
 			productName = UE4CmdLineRun;
-			productReference = FEEA0ACBF22F717F5CD7FC7F /* UE4CmdLineRun.xctest */;
+			productReference = D1C6A0CFDB0094D8E35C577D /* Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F065836E73C8A2F3415E76E1 /* UE4XcodeHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C80F057548241D7663CECC5 /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */;
+			buildPhases = (
+				96CE19817589E2ADB05AEA5C /* Sources */,
+				E21DA3825FF65243B4288416 /* Frameworks */,
+				B5F64B35230992EDF2421C69 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UE4XcodeHelper;
+			productName = UE4XcodeHelper;
+			productReference = 9F2433E3DDF5735319F1FD5F /* libUE4XcodeHelper.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FA8A87A97F953207905EFD6 /* Project object */ = {
+		27AFC5D77CBF58FB29C42D1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = EpicGames;
 			};
-			buildConfigurationList = 5AFC04FBD5F38228F027F30F /* Build configuration list for PBXProject "IntroToUEProgramming" */;
+			buildConfigurationList = 2D19E2F2734BF246E70BD9BE /* Build configuration list for PBXProject "IntroToUEProgramming" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B2D9AA3E670D813F94CCA209;
-			productRefGroup = A7A660A86F7E71ADB7EF07CA /* Products */;
+			mainGroup = 8ECEEA9EC2004E8ED775D5ED;
+			productRefGroup = C39DBEF837505267F32005E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CA5EF6672C374DB7D05FB2D /* UE4XcodeHelper */,
-				CD2B4BAAD044778F03B18500 /* UE4CmdLineRun */,
-				B9DA2287E06D554F82C141CF /* IntroToUEProgramming - Mac */,
-				B03F597AB2B51615D8B0AFF4 /* IntroToUEProgramming - iOS */,
-				A4D012BA00E942CE3E13ED28 /* IntroToUEProgrammingEditor - Mac */,
+				F065836E73C8A2F3415E76E1 /* UE4XcodeHelper */,
+				A5628470F317DFBC0AC94CF2 /* UE4CmdLineRun */,
+				6857F8EAE30E1EA7348C407F /* IntroToUEProgramming - Mac */,
+				6B676F2A98C0EE04EF057E70 /* IntroToUEProgramming - iOS */,
+				C9593CE068915DC38157E739 /* IntroToUEProgrammingEditor - Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6C80F057548241D7663CECC5 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/libUE4XcodeHelper.a/ $DSTROOT/$LOCAL_APPS_DIR/libUE4XcodeHelper.a\nfi";
-		};
-		71691D23B02BEEDBB5650509 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest/ $DSTROOT/$LOCAL_APPS_DIR/UE4CmdLineRun.xctest\nfi";
-		};
-		827F628BDE26193DCAF04501 /* ShellScript */ = {
+		813DBB2C8FA8488CB2A0850E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,46 +275,65 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R IntroToUEProgramming/Binaries/IOS/Payload/IntroToUEProgramming.app/ $DSTROOT/$LOCAL_APPS_DIR/IntroToUEProgramming.app\nfi";
 		};
+		B055C80CF81A0379101047B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest/ $DSTROOT/$LOCAL_APPS_DIR/UE4CmdLineRun.xctest\nfi";
+		};
+		B5F64B35230992EDF2421C69 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/libUE4XcodeHelper.a/ $DSTROOT/$LOCAL_APPS_DIR/libUE4XcodeHelper.a\nfi";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B66A14872D7F21020815DDD /* Sources */ = {
+		96CE19817589E2ADB05AEA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A390DB9969161E8BE4F0CF4 /* BatteryPickup.cpp in Sources */,
+				BA17F0F9190FC96B2FBA2912 /* IntroToUEProgramming.cpp in Sources */,
+				9DB3C79F76F994FE0A529084 /* IntroToUEProgrammingCharacter.cpp in Sources */,
+				B48368436A2746BB0D9E6995 /* IntroToUEProgrammingGameMode.cpp in Sources */,
+				F8EE3A7C52D9DFE2A62935E1 /* Pickup.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3B10D4331CA89EC7F74CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EDC84F240C130AC4F53FC41 /* Sources */ = {
+		FEEA0ACBF22F717F5CD7FC7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0F2B9613D802C986390EF91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A390DB9969161E8BE4F0CF4 /* IntroToUEProgramming.cpp in Sources */,
-				BA17F0F9190FC96B2FBA2912 /* IntroToUEProgrammingCharacter.cpp in Sources */,
-				9DB3C79F76F994FE0A529084 /* IntroToUEProgrammingGameMode.cpp in Sources */,
-				B48368436A2746BB0D9E6995 /* Pickup.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE9C3077E1F943F41CD9821F /* PBXTargetDependency */ = {
+		3397B24CD189DA9D64548528 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9DA2287E06D554F82C141CF /* IntroToUEProgramming - Mac */;
-			targetProxy = C12804AC350EC6F717FBAA24 /* PBXContainerItemProxy */;
+			target = 6857F8EAE30E1EA7348C407F /* IntroToUEProgramming - Mac */;
+			targetProxy = 8EDC84F240C130AC4F53FC41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1654B573D83F1CDE6DF27747 /* DebugGame */ = {
+		2165E139F0A34D8E3CE54651 /* Shipping */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -336,6 +342,7 @@
 				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
 				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
 				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
@@ -346,61 +353,32 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
 			};
-			name = DebugGame;
+			name = Shipping;
 		};
-		29FC17BCBC00AB4007D219E1 /* Development */ = {
+		4CD3C1AEC16D37E04EBBD2C6 /* DebugGame */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		5A273BE58904752506AD7474 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.6/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
-				COPY_PHASE_STRIP = NO;
-				DYNAMIC_NO_PIC = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				CONFIGURATION_BUILD_DIR = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS/Payload";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.6/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OBJROOT = Intermediate/IOS/build;
-				ONLY_ACTIVE_ARCH = NO;
-				OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/IntroToUEProgramming-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/build";
+				"PRODUCT_NAME[sdk=iphoneos*]" = IntroToUEProgramming;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "IntroToUEProgramming-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = Binaries/IOS;
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SYMROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
-				WRAPPER_EXTENSION = xctest;
 			};
-			name = Development;
+			name = DebugGame;
 		};
-		5AF5BED3BA91583CD0B049CF /* DebugGame */ = {
+		56F3EA26B079EBBD04D58035 /* DebugGame */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -485,7 +463,7 @@
 				);
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
 				HEADER_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				SYMROOT = Intermediate/Build;
@@ -494,54 +472,46 @@
 			};
 			name = DebugGame;
 		};
-		6625E8CDC53215948FA96C65 /* Shipping */ = {
+		6029578830DA638243DE8E0B /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.6/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
+				COPY_PHASE_STRIP = NO;
+				DYNAMIC_NO_PIC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.6/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OBJROOT = Intermediate/IOS/build;
+				ONLY_ACTIVE_ARCH = NO;
+				OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Shipping;
-		};
-		6C5905C5B1D5F1E6EBB9395F /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = Binaries/IOS;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Development;
 		};
-		7CC7A084A4947195A832482C /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = DebugGame;
-		};
-		7F1BB64FDEE27BED79E2B518 /* DebugGame */ = {
+		7A3B692D8EC585BB3FD0F8FD /* DebugGame */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -580,7 +550,7 @@
 			};
 			name = DebugGame;
 		};
-		813DBB2C8FA8488CB2A0850E /* Shipping */ = {
+		8205A358E2152CFE8E29FF95 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -592,7 +562,6 @@
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OBJROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/build";
-				ONLY_ACTIVE_ARCH = NO;
 				"PRODUCT_NAME[sdk=iphoneos*]" = IntroToUEProgramming;
 				"PRODUCT_NAME[sdk=iphonesimulator*]" = "IntroToUEProgramming-simulator";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -601,34 +570,23 @@
 				SYMROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Development;
+		};
+		83E49F832E856FD17DB68599 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Shipping;
 		};
-		AF8DCEC0EFCB86B2FEA83E67 /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.6/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS/Payload";
-				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/IntroToUEProgramming-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OBJROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/build";
-				ONLY_ACTIVE_ARCH = NO;
-				"PRODUCT_NAME[sdk=iphoneos*]" = IntroToUEProgramming;
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "IntroToUEProgramming-simulator";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = DebugGame;
-		};
-		B055C80CF81A0379101047B9 /* Shipping */ = {
+		85596FB6CE91F8C3DCE657E0 /* Shipping */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -667,94 +625,7 @@
 			};
 			name = Shipping;
 		};
-		B5F64B35230992EDF2421C69 /* Shipping */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Shipping;
-		};
-		D38ACCF96672675D26E8C3DD /* Shipping */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Shipping;
-		};
-		D3F7EB5710545DE17AF0B5C9 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.6/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS/Payload";
-				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/IntroToUEProgramming-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OBJROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/build";
-				ONLY_ACTIVE_ARCH = NO;
-				"PRODUCT_NAME[sdk=iphoneos*]" = IntroToUEProgramming;
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "IntroToUEProgramming-simulator";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Development;
-		};
-		D4EC617B37E0C926B965EFD1 /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = DebugGame;
-		};
-		D711B1FC4DEE60CF3FB6188C /* Development */ = {
+		8CA5EF6672C374DB7D05FB2D /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -848,7 +719,7 @@
 			};
 			name = Development;
 		};
-		D9C0999C542D97A8C7B043A0 /* Shipping */ = {
+		946A116CFB87339CF0E95285 /* Shipping */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -942,7 +813,64 @@
 			};
 			name = Shipping;
 		};
-		E21DA3825FF65243B4288416 /* Development */ = {
+		A4D012BA00E942CE3E13ED28 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.6/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS/Payload";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/IntroToUEProgramming-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Intermediate/IOS/build";
+				"PRODUCT_NAME[sdk=iphoneos*]" = IntroToUEProgramming;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "IntroToUEProgramming-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = "/Users/georgiivanov/Documents/Unreal Projects/Tutorials/IntroToUEProgramming/Binaries/IOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Shipping;
+		};
+		BE9C3077E1F943F41CD9821F /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		C07DCF5AAAB848C47CD221DD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		C12804AC350EC6F717FBAA24 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -962,71 +890,149 @@
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
 			};
 			name = Development;
+		};
+		CD2B4BAAD044778F03B18500 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		D30D71E001591145B07C34E6 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		DA2F44CA29214A2137DCF1B8 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		F196C5FC16156EAB49EAFE0A /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.6/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = DebugGame;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2165E139F0A34D8E3CE54651 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */ = {
+		0C2D366B707949B120CA6EBD /* Build configuration list for PBXLegacyTarget "IntroToUEProgramming - Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F1BB64FDEE27BED79E2B518 /* DebugGame */,
-				5A273BE58904752506AD7474 /* Development */,
-				B055C80CF81A0379101047B9 /* Shipping */,
+				DA2F44CA29214A2137DCF1B8 /* DebugGame */,
+				C12804AC350EC6F717FBAA24 /* Development */,
+				BE9C3077E1F943F41CD9821F /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = DebugGame;
+			defaultConfigurationName = Development;
 		};
-		2543E95ABE6FE1549428744A /* Build configuration list for PBXLegacyTarget "IntroToUEProgrammingEditor - Mac" */ = {
+		2D19E2F2734BF246E70BD9BE /* Build configuration list for PBXProject "IntroToUEProgramming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CC7A084A4947195A832482C /* DebugGame */,
-				29FC17BCBC00AB4007D219E1 /* Development */,
-				6625E8CDC53215948FA96C65 /* Shipping */,
+				56F3EA26B079EBBD04D58035 /* DebugGame */,
+				8CA5EF6672C374DB7D05FB2D /* Development */,
+				946A116CFB87339CF0E95285 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = DebugGame;
+			defaultConfigurationName = Development;
 		};
-		5AFC04FBD5F38228F027F30F /* Build configuration list for PBXProject "IntroToUEProgramming" */ = {
+		43FF059A291EA3F7D26D7626 /* Build configuration list for PBXLegacyTarget "IntroToUEProgrammingEditor - Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AF5BED3BA91583CD0B049CF /* DebugGame */,
-				D711B1FC4DEE60CF3FB6188C /* Development */,
-				D9C0999C542D97A8C7B043A0 /* Shipping */,
+				F196C5FC16156EAB49EAFE0A /* DebugGame */,
+				C07DCF5AAAB848C47CD221DD /* Development */,
+				83E49F832E856FD17DB68599 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = DebugGame;
+			defaultConfigurationName = Development;
 		};
-		7A3B692D8EC585BB3FD0F8FD /* Build configuration list for PBXLegacyTarget "IntroToUEProgramming - Mac" */ = {
+		6C80F057548241D7663CECC5 /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1654B573D83F1CDE6DF27747 /* DebugGame */,
-				6C5905C5B1D5F1E6EBB9395F /* Development */,
-				D38ACCF96672675D26E8C3DD /* Shipping */,
+				D30D71E001591145B07C34E6 /* DebugGame */,
+				CD2B4BAAD044778F03B18500 /* Development */,
+				2165E139F0A34D8E3CE54651 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = DebugGame;
+			defaultConfigurationName = Development;
 		};
-		946A116CFB87339CF0E95285 /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */ = {
+		71691D23B02BEEDBB5650509 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4EC617B37E0C926B965EFD1 /* DebugGame */,
-				E21DA3825FF65243B4288416 /* Development */,
-				B5F64B35230992EDF2421C69 /* Shipping */,
+				7A3B692D8EC585BB3FD0F8FD /* DebugGame */,
+				6029578830DA638243DE8E0B /* Development */,
+				85596FB6CE91F8C3DCE657E0 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = DebugGame;
+			defaultConfigurationName = Development;
 		};
-		DA2F44CA29214A2137DCF1B8 /* Build configuration list for PBXNativeTarget "IntroToUEProgramming - iOS" */ = {
+		827F628BDE26193DCAF04501 /* Build configuration list for PBXNativeTarget "IntroToUEProgramming - iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF8DCEC0EFCB86B2FEA83E67 /* DebugGame */,
-				D3F7EB5710545DE17AF0B5C9 /* Development */,
-				813DBB2C8FA8488CB2A0850E /* Shipping */,
+				4CD3C1AEC16D37E04EBBD2C6 /* DebugGame */,
+				8205A358E2152CFE8E29FF95 /* Development */,
+				A4D012BA00E942CE3E13ED28 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = DebugGame;
+			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3FA8A87A97F953207905EFD6 /* Project object */;
+	rootObject = 27AFC5D77CBF58FB29C42D1E /* Project object */;
 }
