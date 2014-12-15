@@ -37,7 +37,7 @@ public:
 	
     // pickup to spawn
     UPROPERTY(EditAnywhere, Category = Spawning)
-    class APickup* WhatToSpawn;
+    TSubclassOf<class APickup> WhatToSpawn;
     
     // minimum spawn delay
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Spawning)

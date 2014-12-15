@@ -33,10 +33,9 @@ void ASpawnVolume::SpawnPickup()
         if(World)
         {
             // set the spawn parameters
-            // World::SpawnActor does not take this as parameter
-//            FActorSpawnParameters SpawnParams;
-//            SpawnParams.Owner = this;
-//            SpawnParams.Instigator = Instigator;
+            FActorSpawnParameters SpawnParams;
+            SpawnParams.Owner = this;
+            SpawnParams.Instigator = Instigator;
             
             // get random location to spawn at
             FVector SpawnLocation = GetRandomPointInVolume();
@@ -48,8 +47,7 @@ void ASpawnVolume::SpawnPickup()
             SpawnRotation.Roll = FMath::FRand() * 360.f;
             
             // spawn the pickup
-            APickup* const SpawnedPickup = World->SpawnActor<APickup>(WhatToSpawn->StaticClass(), SpawnLocation, SpawnRotation);
-//            APickup* const SpawnedPickup = World->SpawnActor<APickup>(WhatToSpawn, SpawnLocation, SpawnRotation);
+            APickup* const SpawnedPickup = World->SpawnActor<APickup>(WhatToSpawn, SpawnLocation, SpawnRotation, SpawnParams);
             
         }
     }
