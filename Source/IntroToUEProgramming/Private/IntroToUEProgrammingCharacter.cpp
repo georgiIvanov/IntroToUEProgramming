@@ -12,7 +12,7 @@ AIntroToUEProgrammingCharacter::AIntroToUEProgrammingCharacter(const FObjectInit
 {
     PowerLevel = 2000.f;
     SpeedFactor = 0.75f;
-    BaseSpeed = 10.0f;
+    BaseSpeed = 300.0f;
     
     //Create our battery collection volume
     CollectionSphere = ObjectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("CollectionSphere"));

@@ -13,6 +13,7 @@
 		B48368436A2746BB0D9E6995 /* IntroToUEProgrammingGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97872DDC3C98FCF8D6C94BD /* IntroToUEProgrammingGameMode.cpp */; };
 		BA17F0F9190FC96B2FBA2912 /* IntroToUEProgramming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B10EF6C58AD72A2BFBC0026 /* IntroToUEProgramming.cpp */; };
 		F8EE3A7C52D9DFE2A62935E1 /* Pickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C8B2C8EC6F456C28CBD39 /* Pickup.cpp */; };
+		FF7703C11A3F3E48001D25FF /* SpawnVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF7703C01A3F3E48001D25FF /* SpawnVolume.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		D2A29D200257CBB89990085E /* IntroToUEProgramming.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = IntroToUEProgramming.Build.cs; path = Source/IntroToUEProgramming/IntroToUEProgramming.Build.cs; sourceTree = SOURCE_ROOT; };
 		E87B71283A2450FDB3AFA02A /* IntroToUEProgrammingEditor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = IntroToUEProgrammingEditor.Target.cs; path = Source/IntroToUEProgrammingEditor.Target.cs; sourceTree = SOURCE_ROOT; };
 		E97872DDC3C98FCF8D6C94BD /* IntroToUEProgrammingGameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IntroToUEProgrammingGameMode.cpp; path = Source/IntroToUEProgramming/Private/IntroToUEProgrammingGameMode.cpp; sourceTree = SOURCE_ROOT; };
+		FF7703C01A3F3E48001D25FF /* SpawnVolume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SpawnVolume.cpp; path = Source/IntroToUEProgramming/Private/SpawnVolume.cpp; sourceTree = SOURCE_ROOT; };
+		FF7703C21A3F3E52001D25FF /* SpawnVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpawnVolume.h; path = Source/IntroToUEProgramming/Public/SpawnVolume.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		49E3819C9451B63FB240A287 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				FF7703C21A3F3E52001D25FF /* SpawnVolume.h */,
 				172A2FE00FA3A092B5E62089 /* BatteryPickup.h */,
 				C2B4B2C61992407D66A50C05 /* IntroToUEProgramming.h */,
 				3B062016257A479AC48AD30A /* IntroToUEProgrammingCharacter.h */,
@@ -89,6 +93,7 @@
 		59952E5C4D77A32301346879 /* Private */ = {
 			isa = PBXGroup;
 			children = (
+				FF7703C01A3F3E48001D25FF /* SpawnVolume.cpp */,
 				3F423ED8C0523730E2E120DB /* BatteryPickup.cpp */,
 				6B10EF6C58AD72A2BFBC0026 /* IntroToUEProgramming.cpp */,
 				2550F952F75F829C8282D79A /* IntroToUEProgrammingCharacter.cpp */,
@@ -305,6 +310,7 @@
 				9DB3C79F76F994FE0A529084 /* IntroToUEProgrammingCharacter.cpp in Sources */,
 				B48368436A2746BB0D9E6995 /* IntroToUEProgrammingGameMode.cpp in Sources */,
 				F8EE3A7C52D9DFE2A62935E1 /* Pickup.cpp in Sources */,
+				FF7703C11A3F3E48001D25FF /* SpawnVolume.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
