@@ -3,6 +3,7 @@
 #include "IntroToUEProgramming.h"
 #include "IntroToUEProgrammingCharacter.h"
 #include "BatteryPickup.h"
+#include "IntroToUEProgrammingGameMode.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AIntroToUEProgrammingCharacter
@@ -141,6 +142,14 @@ void AIntroToUEProgrammingCharacter::MoveRight(float Value)
 void AIntroToUEProgrammingCharacter::CollectBatteries()
 {
     float BatteryPower = 0.f;
+    
+    AIntroToUEProgrammingGameMode* GameMode = Cast<AIntroToUEProgrammingGameMode>(UGameplayStatics::GetGameMode(this));
+    
+    // if we are not playing we can't collect batteries
+    if(GameMode->GetCurrentState() != EPlayState::EPlaying)
+    {
+        return;
+    }
     
     // Get all overlapping Actors and store them in a CollectedActors array
     TArray<AActor*> CollectedActors;

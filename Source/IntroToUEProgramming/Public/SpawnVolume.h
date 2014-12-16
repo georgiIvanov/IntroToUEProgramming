@@ -26,6 +26,9 @@ class INTROTOUEPROGRAMMING_API ASpawnVolume : public AActor
     
     // timer for when to spawn the pickup
     float SpawnTime;
+    
+    // weather or not spawning is enabled
+    bool bSpawningEnabled;
 	
 public:
     
@@ -52,4 +55,5 @@ public:
     FVector GetRandomPointInVolume();
     
     virtual void Tick(float DeltaSeconds) OVERRIDE;
+    void EnableSpawning(bool ShouldSpawn);
 };

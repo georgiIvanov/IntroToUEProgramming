@@ -20,6 +20,27 @@ AIntroToUEProgrammingGameMode::AIntroToUEProgrammingGameMode(const FObjectInitia
     
 }
 
+void AIntroToUEProgrammingGameMode::BeginPlay()
+{
+    Super::BeginPlay();
+    
+    // find all spawn volume actors
+    TArray<AActor*> FoundActors;
+    
+    UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASpawnVolume::StaticClass(), FoundActors);
+    
+    for(auto Actor : FoundActors)
+    {
+        ASpawnVolume* SpawnVolumeActor = Cast<ASpawnVolume>(Actor);
+        if(SpawnVolumeActor)
+        {
+            SpawnVolumeActors.Add(SpawnVolumeActor);
+        }
+    }
+    
+    SetCurrentState(EPlayState::EPlaying);
+}
+
 void AIntroToUEProgrammingGameMode::Tick(float DeltaSeconds)
 {
     AIntroToUEProgrammingCharacter* MyCharacter = Cast<AIntroToUEProgrammingCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
@@ -46,15 +67,34 @@ void AIntroToUEProgrammingGameMode::HandleNewState(EPlayState NewState)
 {
     switch (NewState) {
         case EPlayState::EPlaying:
-            
+        {
+            SpawnVolumesActive(true);
+        }
             break;
+            
         case EPlayState::EGameOver:
+        {
+            SpawnVolumesActive(false);
             
+            APlayerController* PlayerController = UGameplayStatics::GetPlayerController(this, 0);
+            PlayerController->SetCinematicMode(true, true, true);
+        }
             break;
-        case EPlayState::EUnknown:
             
+        case EPlayState::EUnknown:
+        {
+            
+        }
         default:
             break;
+    }
+}
+
+void AIntroToUEProgrammingGameMode::SpawnVolumesActive(bool setActive)
+{
+    for(ASpawnVolume* Volume : SpawnVolumeActors)
+    {
+        Volume->EnableSpawning(setActive);
     }
 }
 

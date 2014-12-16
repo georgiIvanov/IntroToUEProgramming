@@ -93,6 +93,12 @@ FVector ASpawnVolume::GetRandomPointInVolume()
 
 void ASpawnVolume::Tick(float DeltaSeconds)
 {
+    // if spawning is not enabled do nothing
+    if(!bSpawningEnabled)
+    {
+        return;
+    }
+    
     // always add delta seconds to spawn time
     SpawnTime += DeltaSeconds;
     
@@ -108,3 +114,7 @@ void ASpawnVolume::Tick(float DeltaSeconds)
     }
 }
 
+void ASpawnVolume::EnableSpawning(bool ShouldSpawn)
+{
+    bSpawningEnabled = ShouldSpawn ? true : false;
+}
