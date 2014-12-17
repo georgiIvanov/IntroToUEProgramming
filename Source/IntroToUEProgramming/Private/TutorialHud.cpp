@@ -36,7 +36,7 @@ void ATutorialHud::DrawHUD()
     {
         // create a variable for storing the size of printing game over
         FVector2D GameOverSize;
-        GetTextSize(TEXT("GAME OVER"), GameOverSize.X, GameOverSize.Y);
+        GetTextSize(TEXT("GAME OVER"), GameOverSize.X, GameOverSize.Y, HUDFont);
         DrawText(TEXT("GAME OVER"), FColor::White, (ScreenDimensions.X - GameOverSize.X) / 2.f, (ScreenDimensions.Y - GameOverSize.Y) / 2.f, HUDFont);
     }
 }

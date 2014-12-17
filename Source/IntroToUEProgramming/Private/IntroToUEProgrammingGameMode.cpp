@@ -49,12 +49,13 @@ void AIntroToUEProgrammingGameMode::Tick(float DeltaSeconds)
 {
     AIntroToUEProgrammingCharacter* MyCharacter = Cast<AIntroToUEProgrammingCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
     
-    if(MyCharacter->PowerLevel > 0.5)
+    if(MyCharacter->PowerLevel > 0.1)
     {
         MyCharacter->PowerLevel = FMath::FInterpTo(MyCharacter->PowerLevel, 0.f, DeltaSeconds, DecayRate);
     }
     else
     {
+        MyCharacter->PowerLevel = 0;
         SetCurrentState(EPlayState::EGameOver);
     }
     
