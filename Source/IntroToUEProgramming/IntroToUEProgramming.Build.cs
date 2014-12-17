@@ -7,6 +7,5 @@ public class IntroToUEProgramming : ModuleRules
 	public IntroToUEProgramming(TargetInfo Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
-// , "Slate", "SlateCore"
 	}
 }
