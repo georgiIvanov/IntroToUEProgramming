@@ -4,6 +4,7 @@
 #include "IntroToUEProgrammingGameMode.h"
 #include "IntroToUEProgrammingCharacter.h"
 #include "Kismet/GameplayStatics.h"
+#include "TutorialHud.h"
 
 AIntroToUEProgrammingGameMode::AIntroToUEProgrammingGameMode(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
@@ -14,6 +15,9 @@ AIntroToUEProgrammingGameMode::AIntroToUEProgrammingGameMode(const FObjectInitia
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+    
+    // set default hud class
+    HUDClass = ATutorialHud::StaticClass();
     
     // base decay rate
     DecayRate = 1.f;
