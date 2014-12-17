@@ -34,7 +34,7 @@ public:
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Power)
     float BaseSpeed;
     
-    virtual void Tick(float DeltaSeconds) OVERRIDE;
+    virtual void Tick(float DeltaSeconds) override;
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)

@@ -22,5 +22,5 @@ public:
 	
     // Override the OnPickedUp(use _Implementation because
     // this is a BlueprintNativeEvent)
-    void OnPickedUp_Implementation() OVERRIDE;
+    void OnPickedUp_Implementation() override;
 };

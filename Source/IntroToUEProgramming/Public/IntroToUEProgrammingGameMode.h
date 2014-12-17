@@ -26,8 +26,8 @@ class AIntroToUEProgrammingGameMode : public AGameMode
 public:
 	AIntroToUEProgrammingGameMode(const FObjectInitializer& ObjectInitializer);
     
-    virtual void Tick(float DeltaSeconds) OVERRIDE;
-    virtual void BeginPlay() OVERRIDE;
+    virtual void Tick(float DeltaSeconds) override;
+    virtual void BeginPlay() override;
     
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Power)
     float DecayRate;
